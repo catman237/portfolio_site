@@ -4,7 +4,13 @@ import './topbar.scss'
 const Topbar = () => {
     return (
         <div className='topbar'>
-            topBar
+            <div className="wrapper">
+                <div className="left">
+                    <a href="#intro" className="logo">Intro</a>
+                </div>
+                <div className="right">
+                </div>
+            </div>
         </div>
     )
 }

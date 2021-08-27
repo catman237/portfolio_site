@@ -1,0 +1,20 @@
+.App {
+  height: 100vh;
+}
+
+.App .sections {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  background-color: lightsalmon;
+  position: relative;
+  top: 6rem;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+.App .sections > * {
+  width: 100vw;
+  height: calc(100vh - 6rem);
+  scroll-snap-align: start;
+}
+/*# sourceMappingURL=App.css.map */

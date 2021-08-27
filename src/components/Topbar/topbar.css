@@ -1,4 +1,8 @@
 .topbar {
   background-color: burlywood;
+  width: 100%;
+  height: 6rem;
+  position: fixed;
+  z-index: 2;
 }
 /*# sourceMappingURL=topbar.css.map */

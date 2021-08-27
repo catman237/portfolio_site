@@ -1,3 +1,26 @@
+@import "../../global.scss";
+
 .topbar{
-    background-color: burlywood;
+    background-color: $mainColor;
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    z-index: 2;
+}
+
+.wrapper {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left{
+
+        .logo{
+            font-size: 3rem;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    }
+
 }

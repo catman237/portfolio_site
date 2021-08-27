@@ -1,0 +1,22 @@
+.App{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 6rem);
+        background-color: lightsalmon;
+        position: relative;
+        top: 6rem;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none; // this is for firefox
+        &::-webkit-scrollbar{
+            display: none; // this gets rid of scroll bar on chrome
+        }
+        > *{
+            width: 100vw;
+            height: calc(100vh - 6rem);
+            scroll-snap-align: start;
+        }
+    }
+}
