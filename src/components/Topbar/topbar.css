@@ -4,6 +4,8 @@
   height: 6rem;
   position: fixed;
   z-index: 2;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .topbar .wrapper {
@@ -73,12 +75,12 @@
   background-color: black;
   -webkit-transform-origin: left;
           transform-origin: left;
-  -webkit-transition: all 3s ease;
-  transition: all 3s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .topbar.active {
-  background-color: #F7F3E3;
+  background-color: salmon;
   color: inherit;
 }
 
@@ -98,7 +100,7 @@
   background-color: black;
   -webkit-transform: rotate(-27deg);
           transform: rotate(-27deg);
-  width: 97%;
+  width: 98%;
   -webkit-transform-origin: left;
           transform-origin: left;
 }

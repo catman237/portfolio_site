@@ -11,11 +11,14 @@ import './app.scss'
 
 function App() {
 
-  const [isOpen, setIsOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <div className="App">
-      <Topbar />
+      <Topbar 
+      menuOpen={menuOpen}
+      setMenuOpen={setMenuOpen}
+      />
       <div className="sections">
         <Intro />
         <Portfolio />
