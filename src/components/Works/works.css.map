@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,WAAW;CAChC",
+    "mappings": "AAEA,AAAA,MAAM,CAAC;EACH,gBAAgB,ECHR,OAAO;CDIlB",
     "sources": [
-        "works.scss"
+        "works.scss",
+        "../../global.scss"
     ],
     "names": [],
     "file": "works.css"

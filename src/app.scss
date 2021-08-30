@@ -13,7 +13,7 @@
         &::-webkit-scrollbar{
             display: none; // this gets rid of scroll bar on chrome
         }
-        > *{
+        > * { 
             width: 100vw;
             height: calc(100vh - 6rem);
             scroll-snap-align: start;
