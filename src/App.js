@@ -5,7 +5,8 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Testimonials from './components/Testimonials/Testimonials'
 import Topbar from './components/Topbar/Topbar'
 import Works from './components/Works/Works'
-import Modal from 'react-modal'
+import Menu from './components/menu/menu'
+
 import './app.scss'
 
 
@@ -15,9 +16,13 @@ function App() {
 
   return (
     <div className="App">
-      <Topbar 
+      <Topbar
+        menuOpen={menuOpen}
+        setMenuOpen={setMenuOpen}
+      />
+      <Menu 
       menuOpen={menuOpen}
-      setMenuOpen={setMenuOpen}
+      setMenuOpen={setMenuOpen} 
       />
       <div className="sections">
         <Intro />

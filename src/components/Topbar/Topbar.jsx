@@ -3,7 +3,7 @@ import './topbar.scss'
 import PersonOutlineRoundedIcon from '@material-ui/icons/PersonOutlineRounded';
 import MailOutlineRoundedIcon from '@material-ui/icons/MailOutlineRounded';
 
-const Topbar = ({ menuOpen, setMenuOpen}) => {
+const Topbar = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className={"topbar " + (menuOpen && "active")}>
 
