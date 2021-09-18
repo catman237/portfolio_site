@@ -9,7 +9,6 @@ import Menu from './components/menu/menu'
 
 import './app.scss'
 
-
 function App() {
 
   const [menuOpen, setMenuOpen] = useState(false)

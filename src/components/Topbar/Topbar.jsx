@@ -13,20 +13,20 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
 
                     <a href="#intro" className="logo">Hughes</a>
                     <div className="itemContainer">
-                        <PersonOutlineRoundedIcon classname="icon" />
-                        <span classname="span">631-408-1224</span>
+                        <PersonOutlineRoundedIcon className="icon" />
+                        <span className="span">631-408-1224</span>
                     </div>
                     <div className="itemContainer">
-                        <MailOutlineRoundedIcon classname="icon" />
-                        <span classname="span">Ghughes610@gmail.com</span>
+                        <MailOutlineRoundedIcon className="icon" />
+                        <span className="span"><a className='link' href="mailto: ghughes@gmail.com">ghughes610@gmail.com</a></span>
                     </div>
                 </div>
 
                 <div className="right">
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-                        <span classname='line1'></span>
-                        <span classname='line2'></span>
-                        <span classname='line3'></span>
+                        <span className='line1'></span>
+                        <span className='line2'></span>
+                        <span className='line3'></span>
                     </div>
                 </div>
 
