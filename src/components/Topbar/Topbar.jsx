@@ -18,7 +18,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                     </div>
                     <div className="itemContainer">
                         <MailOutlineRoundedIcon classname="icon" />
-                        <span classname="span">Ghughes610@gmail.com</span>
+                        <span classname="span"><a className='link' href="mailto: ghughes@gmail.com">ghughes610@gmail.com</a></span>
                     </div>
                 </div>
 

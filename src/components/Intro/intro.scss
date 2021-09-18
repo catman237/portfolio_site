@@ -1,3 +1,54 @@
 .intro{
     background-color:lightslategray;
+    display: flex;
+
+    .left {
+        flex: .5;
+        overflow: hidden;
+
+        .imgContainer {
+            height: 100%;
+            width: 70%;
+            border-radius: 0% 0% 100% 0%;
+            background-color: blanchedalmond;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            
+            
+
+            .profilePicture {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        
+    }
+    
+    .right {
+        flex: .5;
+        display: flex;
+
+        .wrapper {
+
+
+
+            .arrow {
+                box-sizing: border-box;
+                height: 5vw;
+                width: 6vw;
+                border-style: solid;
+                border-color: white;
+                border-width: 0px 1px 1px 0px;
+                transform: rotate(45deg);
+                transition: border-width 150ms ease-in-out;
+            }
+
+            .arrow:hover {
+                border-bottom-width: 5px;
+                border-right-width: 5px;
+            }
+        }
+    }
 }
+
