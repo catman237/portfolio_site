@@ -13,11 +13,11 @@ const Intro = () => {
     init(textRef.current, {
       showCursor: false,
       strings: [
-        "FullStack Software Engineer",
-        "Web Developer",
-        "Rock Climber",
-        "Learner",
-        "Problem Solver"
+        "I am a FullStack Software Engineer",
+        "I am a Web Developer",
+        "I am a Rock Climber",
+        "I am a Learner",
+        "I am a Problem Solver"
       ],
       typeSpeed: 125,
       startDelay: 1000,
@@ -37,11 +37,7 @@ const Intro = () => {
         <div className="right">
           <div className="wrapper">
             <h2>Hello there, I'm</h2>
-            <h1>Greg Hughes</h1>
-            <Switch>
-              <Route path="/portfolio" exact>
-              </Route>
-            </Switch>
+            <h1>Greg Hughes.</h1>
             <span className="textRef"ref={textRef}></span>
             <a href="#portfolio" className="arrow"></a>
           </div>
