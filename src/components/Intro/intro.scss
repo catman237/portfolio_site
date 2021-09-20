@@ -1,28 +1,28 @@
 .intro{
     background-color:lightslategray;
     display: flex;
+    flex-direction: column;
 
-    .left {
+    .top {
         flex: .5;
         overflow: hidden;
 
         .imgContainer {
-            height: 100%;
-            width: 85%;
-            border-radius: 0% 0% 100% 0%;
-            background-color: blanchedalmond;
             overflow: hidden;
+            display: flex;
+            justify-content: space-evenly;
+            height: 100%;
             
             .profilePicture {
                 height: 100%;
-                width: 100%;
+                border-radius: 30%;
             }
         }
         
     }
     
-    .right {
-        flex: .5;
+    .bottom {
+        flex: .4;
         display: flex;
         position: relative;
         overflow: hidden;
@@ -33,6 +33,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
            
 
             h1 {

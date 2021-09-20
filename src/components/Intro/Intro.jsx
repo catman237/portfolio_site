@@ -1,6 +1,5 @@
 import { React, useEffect, useRef } from 'react'
 import './intro.scss'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { init } from 'ityped'
 import icons from '@material-ui/icons'
 import portfolio from '../Portfolio/Portfolio'
@@ -14,12 +13,13 @@ const Intro = () => {
       showCursor: false,
       strings: [
         "I am a FullStack Software Engineer",
-        "I am a Web Developer",
         "I am a Rock Climber",
+        "I am a Web Developer",
+        "I am a Photographer",
         "I am a Learner",
-        "I am a Problem Solver"
+        "I am a Problem Solver",
       ],
-      typeSpeed: 125,
+      typeSpeed: 200,
       startDelay: 1000,
       loop: true
     })
@@ -28,22 +28,23 @@ const Intro = () => {
   return (
 
     <div className="intro" id="intro">
-      <div className="left">
-        <div className="imgContainer">
-          <img src="assets/IMG_0301.png" alt="profilePicture" className="profilePicture" />
+
+      <div className="bottom">
+        <div className="wrapper">
+          <h1>Greg Hughes.</h1>
+          <span className="textRef" ref={textRef}></span>
+          <a href="#portfolio" className="arrow"></a>
         </div>
       </div>
-      <Router>
-        <div className="right">
-          <div className="wrapper">
-            <h2>Hello there, I'm</h2>
-            <h1>Greg Hughes.</h1>
-            <span className="textRef"ref={textRef}></span>
-            <a href="#portfolio" className="arrow"></a>
-          </div>
+
+      <div className="top">
+        <div className="imgContainer">
+          <img src="assets/wedding.png" alt="profilePicture" className="profilePicture" />
         </div>
-      </Router>
+      </div>
+
     </div>
+
 
   )
 }
