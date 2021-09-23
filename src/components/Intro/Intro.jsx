@@ -12,12 +12,12 @@ const Intro = () => {
     init(textRef.current, {
       showCursor: false,
       strings: [
-        "I am a FullStack Software Engineer",
-        "I am a Rock Climber",
-        "I am a Web Developer",
-        "I am a Photographer",
-        "I am a Learner",
-        "I am a Problem Solver",
+        "FullStack Software Engineer",
+        "Rock Climber",
+        "Web Developer",
+        "Photographer",
+        "Learner",
+        "Problem Solver",
       ],
       typeSpeed: 200,
       startDelay: 1000,
