@@ -17,8 +17,9 @@
     ul{
         display: flex;
         justify-content: space-evenly;
-        
-        margin-top: 7.4rem;
+        align-items: flex-end;
+        position: fixed;
+        padding-top: 7.4rem;
         list-style: none;
         font-size: 2rem;
         color: black;
