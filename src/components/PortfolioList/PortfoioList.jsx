@@ -3,26 +3,30 @@ import { useState } from "react";
 import "./portfolioList.scss";
 import PortfolioItem from "../PortfolioItem/PortfolioItem";
 
-const PortfoioList = () => {
-  const [selected, setSelected] = useState("spotlight");
+const PortfoioList = ({ selected, setSelected }) => {
+  
 
   const items = [
     {
-      id: "spotlight",
-      title: "spotlight",
+      id: "Spotlight",
+      title: "Spotlight",
     },
     {
-      id: "web apps",
-      title: "web apps",
+      id: "Web apps",
+      title: "Web apps",
     },
     {
-      id: "mobile apps",
-      title: "mobile apps",
+      id: "Mobile apps",
+      title: "Mobile apps",
     },
     {
-      id: "games",
-      title: "games",
+      id: "Games",
+      title: "Games",
     },
+    {
+      id: "Group projects",
+      title: "Group projects"
+    }
   ];
 
   return (
