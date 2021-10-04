@@ -1,12 +1,11 @@
-import { React, useEffect, useRef } from 'react'
-import './intro.scss'
-import { init } from 'ityped'
-import icons from '@material-ui/icons'
-import portfolio from '../Portfolio/Portfolio'
+import { React, useEffect, useRef } from "react";
+import "./intro.scss";
+import { init } from "ityped";
+import icons from "@material-ui/icons";
+import portfolio from "../Portfolio/Portfolio";
 
 const Intro = () => {
-
-  const textRef = useRef()
+  const textRef = useRef();
 
   useEffect(() => {
     init(textRef.current, {
@@ -21,14 +20,12 @@ const Intro = () => {
       ],
       typeSpeed: 200,
       startDelay: 1000,
-      loop: true
-    })
-  }, [])
+      loop: true,
+    });
+  }, []);
 
   return (
-
     <div className="intro" id="intro">
-
       <div className="bottom">
         <div className="wrapper">
           <h1>Greg Hughes.</h1>
@@ -39,14 +36,15 @@ const Intro = () => {
 
       <div className="top">
         <div className="imgContainer">
-          <img src="assets/wedding.png" alt="profilePicture" className="profilePicture" />
+          <img
+            src="assets/wedding.png"
+            alt="profilePicture"
+            className="profilePicture"
+          />
         </div>
       </div>
-
     </div>
+  );
+};
 
-
-  )
-}
-
-export default Intro
+export default Intro;
